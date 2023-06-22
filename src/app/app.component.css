@@ -1,0 +1,23 @@
+
+/******************NAVBAR CSS*************************/
+.nav-item{
+    margin-right: 35px;  
+ }
+ 
+ .navbar-dark .navbar-nav .nav-link{
+     padding-top: 1rem;
+ }
+ 
+ 
+ 
+ .nav-item .nav-link .active{
+     color:#1ebba3;
+ }
+ .navbar-dark .navbar-nav .nav-link:hover{
+     color:#1ebba3;
+   
+ }
+ 
+ 
+ 
+ 

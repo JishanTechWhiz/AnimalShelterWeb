@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+body{
+    overflow-x: hidden;
+    color:#505962;
+    /*font-family: 'Lato',sans-serif;*/
+    font-family: freight-sans-pro,sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/************Navigation**********/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    background: rgba(0,0,0,0.6)!important;
+    
+}
+
+#my{
+    color:#243E86;
+    padding: 10px;
+}
+.my{
+    color:#243E86;
+}
+
+.my2{
+    color:#0D6EFD;
+    font-family:monospace;
+}
+
+/*******HORIZONTAL LINE : CSS*********************/
+hr.myhr1{
+    border:1px solid black;
+    width:80%;
+    margin: 0 auto;
+
+}
+
+
+/*************CAROUSEL CSS*****************/
+.carousel-item{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

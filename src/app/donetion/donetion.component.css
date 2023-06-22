@@ -1,0 +1,62 @@
+
+.headerr{
+    height: 650px;
+    width: 100%;
+    background-image: url(../../assets/rescue-ms-dog-24787.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.headerr h1{
+    font-size: 80px;
+    font-weight: 700;
+   padding-top: 450px;
+   color:white;  
+   animation: animate 10s linear infinite;
+}
+
+/************ANIMATION ON TEXT***************/
+@keyframes animate
+{
+	0%,100%
+	{
+		color: white;
+        
+	}
+	50%
+	{
+		color:#243E86;
+       
+	}
+}
+
+/************MEDIA QUERY**************/
+@media only screen and (max-width: 800px)
+{
+    .headerr h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+}
+
+
+#form{
+    background-color: #243E86;
+    
+}
+
+#mytext{
+    color:white;
+    font-family: mulish,Arial, Helvetica, sans-serif;
+}
+
+#myhead{
+    color:white;
+    font-family: mulish,Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    
+
+}

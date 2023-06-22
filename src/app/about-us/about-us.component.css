@@ -1,0 +1,81 @@
+.headerr{
+    height: 650px;
+    width: 100%;
+    background-image: url(../../assets/catherine-heath-i4W8OINLI_I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.headerr h1{
+    font-size: 80px;
+    font-weight: 700;
+   padding-top: 500px;
+   color:white;
+  padding-left: 10px;
+  animation: animate 10s linear infinite;
+}
+
+/*********ANIMATION ON TEXT************/
+@keyframes animate
+{
+	0%,100%
+	{
+		color: white;
+        
+	}
+	40%
+	{
+		color:#243E86;
+       
+	}
+}
+
+.MYtext{
+
+
+    color:#293941;
+    font-size: 22px;
+    font-family: cursive;
+    line-height: 30.8px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: freight-sans-pro,sans-serif;
+    
+}
+.myhead{
+    text-align: center;
+    color:#243E86;
+    line-height: 70px;
+    position: relative;
+    font-family: freight-sans-pro,sans-serif;
+    
+    
+}
+
+.myhead::after{
+    content: '';
+    background: lightgray;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    bottom: 0;
+    border-radius: 5px;
+    left: 50%;
+    transform:translateX(-50px);
+   
+}
+
+
+/*************MEDIA QUERY***********/
+
+@media only screen and (max-width: 800px)
+{
+    .headerr h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+}
